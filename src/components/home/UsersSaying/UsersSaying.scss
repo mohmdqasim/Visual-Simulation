@@ -1,0 +1,99 @@
+.usersSaying{
+    padding:30px 0 90px ;
+    overflow: hidden;
+    @media screen and (max-width: 992px){
+       padding: 10px 0 20px;
+      }
+      .title{
+        max-width: 767px;
+        // margin-bottom:50px;
+        @media screen and (max-width: 600px){
+            margin-bottom: 30px;
+        }
+        h2{
+            font-size: 56px;
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 20px;
+            @media screen and (max-width: 992px){
+                font-size: 32px;
+              }
+        }
+        p{
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+            letter-spacing: 1px;
+            line-height: 1.8;
+            margin-bottom: 10px;
+            @media screen and (max-width: 992px){
+                font-size: 12px;
+                
+            }
+        }
+    }
+    .block{
+        position: relative;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .overlay{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background: rgb(0 0 0 / 52%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(10px);
+        
+            p{
+                font-size: 16px;
+                color: #fff;
+                margin-bottom: 0px;
+                @media screen and (max-width: 992px){
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .line{
+        margin: 50px 0;
+        @media screen and (max-width: 600px){
+            display: none;            
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .viewAll {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        @media screen and (max-width: 992px){
+            margin-top: 30px;
+        }
+        a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+        font-size: 18px;
+        background: #5B94FF;
+        color: #fff;
+        padding: 13px 40px;
+        transition: all 0.5s;
+        width: auto;
+        &:hover{
+         background: #4076dc;          
+        }
+      }
+    }
+}

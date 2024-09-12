@@ -1,0 +1,73 @@
+.banner {
+    background: url(../../../../public/images/bannerBack.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 170px 0 90px;
+    position: relative;
+    overflow: hidden;
+
+    @media screen and (max-width:1200px) {
+        padding: 170px 0 90px;
+    }
+
+    @media screen and (max-width:992px) {
+        padding: 140px 0 40px;
+    }
+
+    .title{
+        max-width: 1100px;
+        margin: 0 auto;
+        position: relative;
+        h2 {
+            font-size: 120px;
+            text-align: right;
+            font-weight: 600;
+            margin: 10px 0 ;
+            color: #fff;
+    
+            @media (max-width: 1200px) {
+                font-size: 96px;
+            }
+            @media (max-width: 992px) {
+                font-size: 70px;
+            }
+    
+            @media screen and (max-width: 768px) {
+                text-align: left;
+                margin: 5px 0;
+            }
+            @media screen and (max-width: 600px) {
+                font-size: 36px;
+            }
+            img{
+                @media screen and (max-width: 992px) {
+                    width: 90px;                    
+                }
+            }
+        }
+    
+        p {
+            font-size: 18px;
+            color: rgba(164, 167, 186, 1);
+            margin-bottom: 0;
+            line-height: 1.9;
+            max-width: 407px;
+            position: absolute;
+            bottom: 18px;
+            @media screen and (max-width: 992px) {
+                font-size: 14px;
+                bottom: 0;
+                max-width: 315px;
+            }
+            @media screen and (max-width: 768px) {
+                position: relative;
+                
+            }
+        }
+    }
+}
+video {
+    width: 100%;
+}
+

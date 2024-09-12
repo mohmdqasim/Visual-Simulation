@@ -1,0 +1,94 @@
+.faqs{
+    padding: 50px 0 90px;
+    overflow: hidden;
+    @media screen and (max-width: 992px){
+       padding: 50px 0 0px;
+      }
+      .title{
+        max-width: 767px;
+        margin-bottom:50px;
+        @media screen and (max-width: 600px){
+            margin-bottom: 30px;
+        }
+        h2{
+            font-size: 56px;
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 20px;
+            @media screen and (max-width: 992px){
+                font-size: 32px;
+              }
+        }
+        p{
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+            letter-spacing: 1px;
+            line-height: 1.8;
+            margin-bottom: 10px;
+            @media screen and (max-width: 992px){
+                font-size: 12px;
+                
+            }
+        }
+    }
+      .accordion{ 
+        color: #fff;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        @media (max-width: 600px) {
+            grid-template-columns: 1fr;
+        }
+        .accordion-item{
+            border: none;
+            background-color: #1D1F20;
+            border-bottom: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            height: fit-content;
+        }
+        .accordion-button:not(.collapsed){
+            background-color: transparent;
+            box-shadow: none;
+        }
+        .accordion-button:focus{
+            box-shadow: none;
+        }
+        .accordion-button{
+            padding: 10px 0;
+            color: #fff;
+            background-color: #1D1F20;
+            font-size: 16px;
+            border: none;
+            justify-content: space-between;
+            font-family: "Poppins", sans-serif;
+           @media (max-width: 992px) {
+                font-size: 14px;
+                line-height: 22px;
+            }
+            
+           }
+           .accordion-body{
+            padding: 0 0 10px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.7);
+            line-height:1.8;
+        }
+        .accordion-button::after{
+            background-image: url(../../../../public/images/open.svg);
+            width: 30px;
+            height: 30px;
+            background-size: contain;
+            transform: rotate(0deg);
+            @media (max-width: 600px) {
+                margin-left: 30px;
+            }
+
+        }
+        .accordion-button:not(.collapsed)::after{
+            background-image: url(../../../../public/images/close.svg);
+        }
+        }
+}

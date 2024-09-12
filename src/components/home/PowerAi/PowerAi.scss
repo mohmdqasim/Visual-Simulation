@@ -1,0 +1,130 @@
+.powerAi{
+    padding: 20px 0 90px;
+    overflow: hidden;
+    @media screen and (max-width:992px){
+       padding: 40px 0;
+      }
+    .innerSection{
+      background-color: #5B94FF;
+        border-radius: 20px;
+        border: 1px solid #2E2F45;
+        padding: 60px 40px;
+        overflow: hidden;
+        background-image: url(../../../../public/images/vrBack.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        @media screen and (max-width:992px){
+          padding: 30px 20px;
+         }
+         .title{
+          max-width: 850px;
+          text-align: center;
+          margin: 0 auto 0px;
+          h2{
+              font-size: 52px;
+              color: #fff;
+              font-weight: 700;
+              line-height: normal;
+              margin-bottom: 20px;
+              @media screen and (max-width: 992px){
+                  font-size: 38px;
+                }
+                @media screen and (max-width: 600px){
+                    font-size: 32px;
+                    }
+          }
+          p{
+              font-size: 18px;
+              color: #fff;
+              line-height: 1.8;
+              margin: 0 auto;
+              max-width: 740px;
+          }
+      }
+      .btns {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 40px;
+        gap: 15px;
+        justify-content: center;
+        @media (max-width: 600px) {
+            margin-top: 30px;
+            flex-direction: column;
+        }
+
+        a {
+            background: #fff;
+            color: #171819;
+            padding: 10px 20px;
+            border-radius: 100px;
+            box-shadow:inset 0px 5px 3px 2px #9494943b;
+            font-size: 16px;
+            text-decoration: none;
+            border: 1px solid #fff;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+
+            svg {
+                margin-left: 10px;
+
+                path {
+                    fill: #171819;
+                }
+
+            }
+
+            &:hover {
+                background: transparent;
+                color: #fff;
+                border: 1px solid #fff;
+                box-shadow: none;
+                svg {
+                    path {
+                        fill: #fff;
+                    }
+
+                }
+            }
+
+            &:last-child {
+                background-color: transparent;
+                border: 1px solid #fff;
+                color: #fff;
+                box-shadow: none;
+                svg {
+                    margin-right: 10px;
+                    margin-left: 0;
+                    path {
+                        fill: #fff;
+                    }
+                }
+
+                &:hover {
+                    background: #fff;
+                    color: #171819;
+
+                    svg {
+                        path {
+                            fill: #171819;
+                        }
+                    }
+                }
+            }
+
+            @media (max-width: 992px) {
+                padding: 10px 15px;
+                font-size: 16px;
+            }
+
+            @media screen and (max-width: 600px) {
+                font-size: 14px;
+            }
+        }
+    }
+    }
+
+}

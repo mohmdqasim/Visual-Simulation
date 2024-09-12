@@ -1,0 +1,108 @@
+.aboutCompany{
+    padding: 70px 0;
+    overflow: hidden;
+    @media screen and (max-width: 992px){
+       padding: 50px 0;
+      }
+      .title{
+        margin-bottom:50px;
+        @media screen and (max-width: 600px){
+            margin-bottom: 30px;
+        }
+        h2{
+            font-size: 56px;
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 20px;
+            @media screen and (max-width: 992px){
+                font-size: 32px;
+              }
+        }
+        p{
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+            letter-spacing: 1px;
+            line-height: 1.8;
+            margin-bottom: 10px;
+            @media screen and (max-width: 992px){
+                font-size: 12px;
+                
+            }
+        }
+    }
+      .col-md-4{
+        &:nth-child(1){
+            .block{
+                position: relative;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    right: -32px;
+                    width: 60px;
+                    height: 60px;
+                    transform: translate(10px,-50%);
+                    background-image: url(../../../../public/images/companyCircle.svg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+        &:nth-child(2){
+            z-index: -999;
+            .block{
+                position: relative;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    right: -32px;
+                    width: 60px;
+                    height: 60px;
+                    transform: translate(10px,-50%);
+                    background-image: url(../../../../public/images/companyCircle.svg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+        &:nth-child(3){
+            z-index: -9999;
+        }
+      }
+      .block{
+          padding: 30px 25px;
+          background-color: rgba(29, 31, 32, 1);
+          border-radius: 20px;
+          height: 100%;
+            &::before{
+                @media screen and (max-width: 767px){
+                    display: none; 
+                }
+            }
+          .content{
+              gap: 15px;
+              display: flex;
+              flex-direction: column;
+              margin-bottom: 15px;
+              img{
+                  width: 56px;
+                  height: 56px;
+              }
+              h3{
+                  font-size: 28px;
+                  color: #fff;
+                  margin-bottom: 0px;
+                  font-weight: 600;
+              }
+          }
+          p{
+              font-size: 14px;
+              color: rgba(176, 176, 176, 1);
+              margin: 0;
+              line-height: normal;
+          }
+      }
+}

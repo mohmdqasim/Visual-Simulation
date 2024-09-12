@@ -1,0 +1,97 @@
+.ourServices{
+    padding: 120px 0;
+    overflow: hidden;
+    @media screen and (max-width: 992px){
+       padding: 60px 0;
+      }
+    .title{
+        max-width: 767px;
+        margin-bottom:60px;
+        h2{
+            font-size: 56px;
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 20px;
+            @media screen and (max-width: 992px){
+                font-size: 32px;
+              }
+        }
+        p{
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+            letter-spacing: 1px;
+            line-height: 1.8;
+            margin-bottom: 10px;
+            @media screen and (max-width: 992px){
+                font-size: 12px;
+                
+            }
+        }
+    }
+    .block{
+        height: 100%;
+        .content{
+            gap: 20px;
+            display: flex;
+            margin-bottom: 15px;
+            flex-direction: column;
+            img{
+                width: 66px;
+                height: 66px;
+            }
+            h3{
+                font-size: 24px;
+                color: #fff;
+                margin-bottom: 0px;
+                line-height: normal;
+                @media screen and (max-width: 992px){
+                    font-size: 20px;                    
+                }
+            }
+        }
+        p{
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.8;
+            margin: 0;
+            @media screen and (max-width: 992px){
+                font-size: 16px;                    
+            }
+        }
+    }
+    .mySwiper {
+        margin-top: 90px;
+        border-top: 1px solid #3C3E40;
+        @media screen and (max-width:992px) {
+            margin-top: 60px;
+        }
+    
+        .swiper-wrapper {
+            align-items: center;
+            padding-top: 60px;
+            @media screen and (max-width: 992px) {
+                padding-top: 40px;
+                
+            }
+        }
+    
+        .imgBlock {
+            text-align: start;
+    
+            img {
+                width: 222px;
+                height: auto;
+    
+                @media screen and (max-width: 1200px) {
+                    width: 190px;
+                }
+    
+                @media screen and (max-width: 600px) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

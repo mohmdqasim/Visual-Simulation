@@ -1,0 +1,97 @@
+.boxLine{
+
+    background-image: url(../../../../public/images/boxLine.png);
+    background-size: 700px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    @media screen and (max-width: 992px){
+        background-position: top;
+    }
+    .serviceBanner{
+        padding: 70px 0 60px;
+        margin-top: 100px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        @media screen and (max-width:1200px) {
+            padding: 70px 0 20px;
+        }
+    
+        @media screen and (max-width:992px) {
+            padding: 40px 0 40px;
+        }
+        .bannerContent{
+            text-align: center;
+            .title{
+                h2{
+                    font-size: 56px;
+                    color: #fff;
+                    font-weight: 700;
+                    margin-bottom: 0px;
+                    @media screen and (max-width: 992px){
+                        font-size: 32px;
+                      }
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #fff;
+                    letter-spacing: 1px;
+                    line-height: 1.8;
+                    margin-bottom: 10px;
+                    @media screen and (max-width: 992px){
+                        font-size: 12px;
+                        
+                    }
+                }
+                img{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    .serviceCards{
+        .block{
+            height: 100%;
+            text-align: center;
+            background: rgba(29, 31, 32, 1);
+            padding: 30px 20px;
+            border-radius: 40px;
+            overflow: hidden;
+            .content{
+                gap: 20px;
+                display: flex;
+                margin-bottom: 15px;
+                flex-direction: column;
+                img{
+                    width: 66px;
+                    height: 66px;
+                    margin: 0 auto;
+                }
+                h3{
+                    font-size: 24px;
+                    color: #fff;
+                    margin-bottom: 0px;
+                    margin-top: 10px;
+                    @media screen and (max-width: 992px){
+                        font-size: 20px;                    
+                    }
+                }
+            }
+            p{
+                font-size: 14px;
+                color: rgba(255, 255, 255, 0.7);
+                line-height: 1.8;
+                margin: 30px 0;
+            }
+            .arrow{
+                width: 25px;
+            }
+        }
+    }
+}
