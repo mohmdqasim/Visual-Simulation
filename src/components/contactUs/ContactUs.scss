@@ -136,6 +136,12 @@
                         margin-bottom: 10px;
                         display: block;
                     }
+                    .error{
+                        color: #ff6262;
+                        font-size: 14px;
+                        margin-top: 10px;
+                        margin-bottom: 0;
+                    }
                     input, textarea{
                         width: 100%;
                         padding: 15px;
@@ -171,7 +177,17 @@
                         }
                     }
                 }
-    
+                
+            }
+            .submission-message{
+                color: #fff;
+                font-size: 14px;
+                margin-top: 10px;
+                margin-bottom: 0;
+                padding: 10px;
+                border-radius: 7px;
+                background-color: #171819;
+                border: 1px solid #5B94FF;
             }
         }
         .map{

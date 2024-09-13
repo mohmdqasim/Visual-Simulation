@@ -1,4 +1,4 @@
-import React,{useEffect , useState} from 'react'
+import React,{useEffect} from 'react'
 import './Footer.scss'
 import { Link } from 'react-router-dom'
 import AOS from 'aos';
@@ -31,7 +31,7 @@ function Footer() {
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/services">Service</Link></li>
-                            <li><Link to="/contactUs">Contact Us</Link></li>
+                            <li><Link to="/contactUs#contactForm">Contact Us</Link></li>
                         </ul>
                     </div>
                 </div>
