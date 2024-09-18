@@ -65,14 +65,14 @@ const Navbar = () => {
                                 >
                                     <span>Contact Us</span>
                                 </NavLink>
-                                <Link to="/" className={`lap_btn ${window.location.pathname === '/login' ? 'active' : ''}`}>
+                                <Link to="https://app.vr-vss.com/" className={`lap_btn ${window.location.pathname === '/login' ? 'active' : ''}`}>
                                     <button className="booking">
                                         <span>Login</span>
                                     </button>
                                 </Link>
                             </Nav>
                         </BootstrapNavbar.Collapse>
-                        <Link to="/" className={`mbl_btn ${window.location.pathname === '/login' ? 'active' : ''}`}>
+                        <Link to="https://app.vr-vss.com/" className={`mbl_btn ${window.location.pathname === '/login' ? 'active' : ''}`}>
                             <button className="booking">
                                 <span>Login</span>
                             </button>

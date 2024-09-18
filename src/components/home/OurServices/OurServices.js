@@ -55,7 +55,7 @@ function OurServices() {
                     </div>
                 </div>
             </div>
-      <Swiper
+      {/* <Swiper
             slidesPerView={6}
             spaceBetween={10}
             autoplay={{
@@ -93,7 +93,7 @@ function OurServices() {
                 </div>
               </SwiperSlide>
             ))}
-      </Swiper>
+      </Swiper> */}
         </div>
       </div>
     </React.Fragment>

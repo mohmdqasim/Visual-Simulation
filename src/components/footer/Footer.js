@@ -14,9 +14,7 @@ function Footer() {
                 <div className="col-lg-4 col-md-6" data-aos="fade-right"
     data-aos-duration="1000">
                     <Link href="/"><img className='logo' src="/images/logo.svg" alt="logo" /></Link>
-                    <p>We understand that injuries and acute
-                        pain can happen unexpectedly. Our
-                        emergency physiotherapy.</p>
+                    <p>Virtue-Simulation Safety Company specializes in immersive AR/VR training solutions for occupational health and safety, providing cutting-edge, realistic simulations to enhance workplace safety and compliance in high-risk industries.</p>
                       <div className="social">
                         <Link to=""><img src="/images/social1.svg" alt="socialIcon" /></Link>
                         <Link to=""><img src="/images/social2.svg" alt="socialIcon" /></Link>
@@ -40,8 +38,8 @@ function Footer() {
                     <div className="links">
                         <h4>Contact</h4>
                         <ul>
-                            <li><a href="tel:+ (123) 456 7890"><img src="/images/phone.svg" alt="icon" /> + (123) 456 7890</a></li>
-                            <li><a href="mailto:info@gmail.com"><img src="/images/mailt.svg" alt="icon" /> info@gmail.com</a></li>
+                            {/* <li><a href="tel:+ (123) 456 7890"><img src="/images/phone.svg" alt="icon" /> + (123) 456 7890</a></li> */}
+                            <li><a href="mailto:Keith.wong@vr-vss.com"><img src="/images/mailt.svg" alt="icon" /> Keith.wong@vr-vss.com</a></li>
                             <li><Link to=""><img src="/images/loca.svg" alt="icon" /> 24/11 Robert Road,New York,USA</Link></li>
                         </ul>
                     </div>
@@ -59,7 +57,7 @@ function Footer() {
                 </div>
             </div>
             <div className="copRight">
-                <p>Copyright 2024 VR SAFETY. All Rights Reserved.</p>
+                <p>Virute Simulation</p>
             </div>
         </div>
         </div>

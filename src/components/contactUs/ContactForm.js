@@ -130,7 +130,7 @@ function ContactForm() {
                   Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Nibh sit amet commodo nulla facilisi.
                 </p>
                 <div className="contactFormLeftContent">
-                  <div className="block" data-aos="fade-left" data-aos-duration="1000">
+                  {/* <div className="block" data-aos="fade-left" data-aos-duration="1000">
                     <img src="/images/contactIcon1.svg" alt="contactIcon" />
                     <div className="content">
                       <h4>Call Us</h4>
@@ -140,14 +140,14 @@ function ContactForm() {
                         </a>
                       </p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="block" data-aos="fade-left" data-aos-duration="1000">
                     <img src="/images/contactIcon2.svg" alt="contactIcon" />
                     <div className="content">
                       <h4>Mail Us</h4>
                       <p>
-                        <a href="mailto:info@harity.com">
-                          info@harity.com
+                        <a href="mailto:Keith.wong@vr-vss.com">
+                          Keith.wong@vr-vss.com
                         </a>
                       </p>
                     </div>
@@ -156,7 +156,7 @@ function ContactForm() {
                     <img src="/images/contactIcon3.svg" alt="contactIcon" />
                     <div className="content">
                       <h4>Visit Us</h4>
-                      <p>3891 Ranchview Dr. Richardson, California 62639</p>
+                      <p>Suite 2058291 Alexandra Rd Richmond British Columbia V6X1C3</p>
                     </div>
                   </div>
                 </div>
@@ -251,7 +251,7 @@ function ContactForm() {
         <div className="map" data-aos="fade-up" data-aos-duration="1000">
           <iframe
             title='map'
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13386.547743580772!2d-96.6140914!3d32.9869793!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1c846a181d41%3A0xe1167132cabc18bd!2sHeptic!5e0!3m2!1sen!2s!4v1720706595842!5m2!1sen!2s"
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2608.1699362925965!2d-123.12841132485264!3d49.178361878137615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486753ac69e283b%3A0xf71c3a5d508f09b!2sAlexandra%20Rd%2C%20Richmond%2C%20BC%2C%20Canada!5e0!3m2!1sen!2s!4v1726489862681!5m2!1sen!2s"
             width="100%"
             height="450"
             style={{ border: 0 }}

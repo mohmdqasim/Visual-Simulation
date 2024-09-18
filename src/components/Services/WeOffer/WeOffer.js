@@ -24,13 +24,13 @@ function WeOffer() {
                     <Swiper
                         slidesPerView={1}
                         spaceBetween={10}
-                        autoplay={{
-                            delay: 500,
-                            disableOnInteraction: false,
-                        }}
+                        // autoplay={{
+                        //     delay: 500,
+                        //     disableOnInteraction: false,
+                        // }}
                         loop={true}
                         speed={5000}
-                        pagination={true}
+                        pagination={false}
                         navigation={false}
                         modules={[Autoplay, Navigation, Pagination]}
                         className="mySwiper"
@@ -53,36 +53,6 @@ function WeOffer() {
                             },
                         }}
                     >
-                        <SwiperSlide>
-                            <div className='row'>
-                               <div className="col-md-6" data-aos="fade-right"
-                                data-aos-duration="1000">
-                                    <img src="/images/offer.svg" alt="offer" />
-                                </div>
-                               <div className="col-md-6" data-aos="fade-left"
-                                data-aos-duration="1000">
-                                    <h2>Experience Safety.
-                                    <span>Build with Confidence</span></h2>
-                                    <p>Our VR Safety Training provides construction professionals with immersive, hands-on learning experiences that replicate real-world scenarios. By simulating potential hazards and challenges, we empower workers to identify risks, develop critical skills, and make informed decisions in a safe, controlled environment. With our cutting-edge VR technology, you can enhance safety standards, boost productivity, and build with the confidence that your team is fully prepared for any situation.</p>
-                                    <Link to="/">Get Started</Link>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='row'>
-                               <div className="col-md-6" data-aos="fade-right"
-                                data-aos-duration="1000">
-                                    <img src="/images/offer.svg" alt="offer" />
-                                </div>
-                               <div className="col-md-6" data-aos="fade-left"
-                                data-aos-duration="1000">
-                                    <h2>Experience Safety.
-                                    <span>Build with Confidence</span></h2>
-                                    <p>Our VR Safety Training provides construction professionals with immersive, hands-on learning experiences that replicate real-world scenarios. By simulating potential hazards and challenges, we empower workers to identify risks, develop critical skills, and make informed decisions in a safe, controlled environment. With our cutting-edge VR technology, you can enhance safety standards, boost productivity, and build with the confidence that your team is fully prepared for any situation.</p>
-                                    <Link to="/">Get Started</Link>
-                                </div>
-                            </div>
-                        </SwiperSlide>
                         <SwiperSlide>
                             <div className='row'>
                                <div className="col-md-6" data-aos="fade-right"

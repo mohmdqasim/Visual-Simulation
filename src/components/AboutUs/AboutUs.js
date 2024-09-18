@@ -4,19 +4,19 @@ import Navbar from '../navbar/Navbar'
 import Footer from '../footer/Footer'
 import OurTeam from './OurTeam/OurTeam'
 import AboutCompany from './AboutCompany/AboutCompany'
-import Achievements from '../home/Achievements/Achievements'
+// import Achievements from '../home/Achievements/Achievements'
 import PowerAi from '../home/PowerAi/PowerAi'
-import OurStory from './OurStory/OurStory'
+// import OurStory from './OurStory/OurStory'
 
 function AboutUs() {
   return (
     <React.Fragment>
         <Navbar />
       <AboutBanner />
-      <Achievements />
+      {/* <Achievements /> */}
       <AboutCompany />
       <OurTeam />
-      <OurStory />
+      {/* <OurStory /> */}
       <PowerAi />
       <Footer />
     </React.Fragment>

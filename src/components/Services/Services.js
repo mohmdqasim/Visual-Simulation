@@ -4,7 +4,7 @@ import Navbar from '../navbar/Navbar'
 import Footer from '../footer/Footer'
 import PowerAi from '../home/PowerAi/PowerAi'
 import WeOffer from './WeOffer/WeOffer'
-import OurStory from '../AboutUs/OurStory/OurStory'
+// import OurStory from '../AboutUs/OurStory/OurStory'
 function Services() {
   return (
     <React.Fragment>
@@ -13,7 +13,7 @@ function Services() {
       <ServiceBanner />
       </div>
       <WeOffer />
-      <OurStory />
+      {/* <OurStory /> */}
       <PowerAi />
      <Footer />
     </React.Fragment>
