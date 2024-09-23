@@ -40,7 +40,7 @@ function Footer() {
                         <ul>
                             {/* <li><a href="tel:+ (123) 456 7890"><img src="/images/phone.svg" alt="icon" /> + (123) 456 7890</a></li> */}
                             <li><a href="mailto:Keith.wong@vr-vss.com"><img src="/images/mailt.svg" alt="icon" /> Keith.wong@vr-vss.com</a></li>
-                            <li><Link to=""><img src="/images/loca.svg" alt="icon" /> Suite 2058291 Alexandra Rd Richmond British Columbia V6X1C3</Link></li>
+                            <li><Link to=""><img src="/images/loca.svg" alt="icon" /> Suite 205-8291 Alexandra Rd Richmond British Columbia V6X1C3</Link></li>
                         </ul>
                     </div>
                 </div>

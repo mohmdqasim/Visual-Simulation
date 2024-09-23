@@ -156,7 +156,7 @@ function ContactForm() {
                     <img src="/images/contactIcon3.svg" alt="contactIcon" />
                     <div className="content">
                       <h4>Visit Us</h4>
-                      <p>Suite 2058291 Alexandra Rd Richmond British Columbia V6X1C3</p>
+                      <p>Suite 205-8291 Alexandra Rd Richmond British Columbia V6X1C3</p>
                     </div>
                   </div>
                 </div>
