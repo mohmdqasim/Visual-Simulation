@@ -127,7 +127,7 @@ function ContactForm() {
               <div className="contactFormLeft">
                 <h2>Get in Touch</h2>
                 <p>
-                  Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Nibh sit amet commodo nulla facilisi.
+                  We're always happy to hear from you. Please feel free to contact us with any questions, comments, or concerns.
                 </p>
                 <div className="contactFormLeftContent">
                   {/* <div className="block" data-aos="fade-left" data-aos-duration="1000">
@@ -156,7 +156,7 @@ function ContactForm() {
                     <img src="/images/contactIcon3.svg" alt="contactIcon" />
                     <div className="content">
                       <h4>Visit Us</h4>
-                      <p>Suite 2058291 Alexandra Rd Richmond British Columbia V6X1C3</p>
+                      <p>Suite 205-8291 Alexandra Rd Richmond British Columbia V6X1C3</p>
                     </div>
                   </div>
                 </div>
